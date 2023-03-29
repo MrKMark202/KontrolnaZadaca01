@@ -1,7 +1,7 @@
-/*
+
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje neparne brojeve od 0 do 100
-
+/*
 function neprarni () {
     for(let i = 0; i <= 100; i++) {
         if(i%1==0) {
@@ -12,12 +12,12 @@ function neprarni () {
 };
 neprarni();
 */
-/*
+
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u godisnje u doba. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; 
-
+/*
 function doba (broj) {
     switch(broj) {
         case 1:
@@ -37,12 +37,12 @@ function doba (broj) {
 
 console.log(doba(2));
 */
-/*
+
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao"
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 39)
-
+/*
 function strig (string) {
     let temp_string = "";
     let broj=0;
@@ -71,8 +71,13 @@ const peopleYouShouldKnow = {
 //OUTPUT: "Stroustrup"
 
 function vrati (peopleYouShouldKnow) {
-
+    peopleYouShouldKnow.map(e => {
+        console.log(e.Donald)
+    })
 };
+
+vrati();
+
 /*
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
