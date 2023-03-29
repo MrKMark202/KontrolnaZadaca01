@@ -84,7 +84,7 @@ vrati();
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [4, 5, 8]
-
+/*
 let brojevi = [2, 6, 345, 74, 3, 16, 15];
 
 function neprost (brojevi) {
@@ -92,7 +92,7 @@ function neprost (brojevi) {
         
     }
 };
-
+*/
 //ZAMJENA ZA 5 (4 BODA)
 //Napisi funkciju u obliku arrow functiona koja pretvara mala slova danih inputa u velika slova
 //INPUT: ["aa", "b1", "", null, "AAA"]
@@ -122,5 +122,21 @@ const someEvents = [
         measuredTemperature: 48.0,
     },
 ];
+
+function vrati (someEvents) {
+    someEvents.forEach(element => {
+        
+    });(e => {
+        if(e.measuredTemperature < broj) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    });
+}
+
+console.log(vrati(45.0));
+
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
