@@ -70,7 +70,7 @@ const peopleYouShouldKnow = {
 }
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
-
+/*
 function vrati (peopleYouShouldKnow) {
     let broj=0;
     peopleYouShouldKnow.forEach(e => {
@@ -81,7 +81,7 @@ function vrati (peopleYouShouldKnow) {
 };
 
 vrati();
-
+*/
 
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
@@ -100,6 +100,18 @@ function neprost (brojevi) {
 //Napisi funkciju u obliku arrow functiona koja pretvara mala slova danih inputa u velika slova
 //INPUT: ["aa", "b1", "", null, "AAA"]
 //OUTPUT: ["AA","B1", "", null, "AAA"]
+
+function velikaslova (string) {
+    for(let i=0; i<string.length; i++) {
+        tempi_string = "";
+        tempi_string = string.toUpperCase();
+        console.log(tempi_string);
+    }
+};
+
+velikaslova("Banana");
+
+
 /*
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve drzave koji su imali manju temperaturu od one iz ulaznog parametra
