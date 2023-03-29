@@ -37,7 +37,7 @@ function doba (broj) {
 
 console.log(doba(2));
 */
-
+/*
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao"
@@ -55,8 +55,8 @@ function strig (string) {
 }
 
 console.log(strig("JavaScript je dobar jezik"));
+*/
 
-/*
 //4 (4 BODA)
 //Napisi funkciju koja odreduje najdulju vrijednostu u danom objektu
 const peopleYouShouldKnow = {
@@ -70,6 +70,10 @@ const peopleYouShouldKnow = {
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
 
+function vrati (peopleYouShouldKnow) {
+
+};
+/*
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
 //INPUT: [3, 4, 5, 8, 11]
