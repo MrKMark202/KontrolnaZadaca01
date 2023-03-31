@@ -112,7 +112,7 @@ function velikaslova (string) {
 velikaslova("Banana");
 
 
-/*
+
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve drzave koji su imali manju temperaturu od one iz ulaznog parametra
 const someEvents = [
@@ -138,7 +138,7 @@ const someEvents = [
     },
 ];
 
-function vrati (broj) {
+function vrati (someEvents,broj) {
     someEvents.forEach(e => {
         if(e.measuredTemperature < broj) {
             return true;
@@ -153,4 +153,3 @@ console.log(vrati(45.0));
 
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
-*/
